@@ -3,8 +3,11 @@
 exports[`renders 1`] = `
 <DocumentFragment>
   <header>
-    <h1>
-      Hello 
+    <h1
+      class="sample"
+      data-testid="h1tag"
+    >
+      Hello!
     </h1>
   </header>
 </DocumentFragment>
